@@ -3,10 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "axios": "^0.18.0",
+    "bourbon": "^5.1.0",
+    "compass-mixins": "^0.12.10",
     "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.5",
+    "react-tap-event-plugin": "^3.0.3",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.1.0",
+    "sass-npm": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,10 +31,15 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://server_node:8080",
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0"
+  }
 }

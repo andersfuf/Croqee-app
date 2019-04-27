@@ -1,15 +1,127 @@
 body {
-    // padding-top: 75px; // background: url(../img/asset-3.png) no-repeat 100%;
-    // background-size: 100%;
-    background-color: $background-White;
-
+	// padding-top: 75px; // background: url(../img/asset-3.png) no-repeat 100%;
+	// background-size: 100%;
+	background-color: $background-White;
+	margin: 0;
 }
 
 a:hover,
 a:focus {
-    color: none;
-    text-decoration: none;
+	color: none;
+	text-decoration: none;
 }
 
+.modelImg {
+	float: left;
+	position: relative;
+	top: 10px;
+    left: 60px;
+    clear: both;
+}
+#drawhere {
+    width: 193px;
+    height: 106px;
+    background-image: url(http://localhost:3000/drawhere.png);
+    display: block;
+    background-size: 193px;
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+    right: 180px;
+    top: -92px;
+    margin-bottom: -200px;
+}
+.model_left_hand{
+	float: right;
+	left: -50px!important;
+}
+.canvas_left_hand{
+	float: left!important;
+	position: relative;
+	left: 50px!important;
+
+
+}
+#userScore {
+	font-size: 40px;
+	background: #100005;
+	height: 40px;
+	display: block;
+	position: fixed;
+	right: -561px;
+	color: white;
+	top: 115px;
+	width: 200px;
+	text-align: left;
+	padding: 10px;
+	padding-left: 30px;
+	-webkit-transition: right 1.2s;
+	transition: right 1.2s;
+}
+.userScore_show {
+	right: 177px !important;
+}
+#countDown {
+	font-size: 40px;
+	background: #0523cc;
+	height: 40px;
+	display: block;
+	position: fixed;
+	right: 430px;
+	color: white;
+	top: 113px;
+	width: 70px;
+	text-align: left;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 1750px) {
+	.canvas {
+		margin-right: 0 !important;
+	}
+	.draw_and_model {
+        position: inherit;
+        margin-left: 8px;
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 1660px) {
+	.draw_and_model {
+		width: 700px !important;
+	}
+}
+
+@media only screen and (max-width: 1550px) {
+	.draw_and_model {
+		width: 650px !important;
+	}
+}
+@media only screen and (max-width: 1500px) {
+	.draw_and_model {
+		width: 600px !important;
+	}
+}
+@media only screen and (max-width: 1445px) {
+	.draw_and_model {
+		width: 550px !important;
+	}
+}
+@media only screen and (max-width: 1395px) {
+	.draw_and_model {
+		width: 500px !important;
+	}
+}
+@media only screen and (max-width: 1345px) {
+	.draw_and_model {
+		width: 450px !important;
+	}
+}
+@media only screen and (max-width: 1295px) {
+	.draw_and_model {
+		width: 400px !important;
+	}
+}
 
 
